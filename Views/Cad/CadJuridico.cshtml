@@ -28,7 +28,6 @@
 </section>
 
 <div id="navbarcad">
-    <navbarinternal></navbarinternal>
 </div>
 <div id="WebDev" class="content-tab">
     <div class="" id="cad">
@@ -36,7 +35,9 @@
             <div v-if="step === 1">
                 <div class="mt5">
                     <div id="cadastro" class="columns is-desktop">
-                        <div class="column is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop">
+                         <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
                             <div class="mt4">
                                         <label class="label mt3">CNPJ</label>
                                         <input class="input" id="cnpj" type="text" name="cnpj" data-validate="cnpj" placeholder="00.000.000/0000-00" v-model="dados.entity.cnpj">
@@ -79,10 +80,16 @@
                                     </div>
                                 </div>
                         </div>
+                        </div>
+                       
+                         <div class="col-sm-6">
                          <infocadastro></infocadastro>
+                            </div>
                     </div>
+                  
                 </div>
             </div>
+           
             <div v-if="step === 2">
                 <div class="mt5">
                     <div id="cadastro1" class="columns is-desktop">
@@ -129,9 +136,11 @@
                          </div>
                          </div>
                         </div>
+                        
                             <div class="mt5 mb5 column is-paddingless is-10-touch is-4-desktop flexd">
                                 <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
                                 <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -313,7 +322,7 @@
                     </div>
                      </section>
             <footer class="card-footer">
-            <a v-bind:disabled="termoschecked" href="#" class="button is-info card-footer-item">Avançar</a>
+            <a v-bind:disabled="termoschecked" href="#" class="btn btn-primary">Avançar</a>
             </footer>
       </div>
     </div> 
@@ -321,8 +330,6 @@
 <div id="cadastrousuarios" class="content-tab" style="display:none">
     <form>
         <div class="container mt5">
-            <div class="columns is-desktop">
-                    <div class="column is-8-desktop is-offset-2-desktop is-10-touch is-offset-1-touch">
                         <div class="mt4">
                             <div v-for="(user, index) in users">
                             <label class="label mt3">CPF</label>
@@ -378,8 +385,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="button is-info" v-on:click.prevent="deleteUser(index)">Deletar</button>
-                        <button class="button is-info" v-on:click.prevent="addUser">Novo Usuário</button>
+                        <button class="btn btn-primary" v-on:click.prevent="deleteUser(index)">Deletar</button>
+                        <button class="btn btn-primary" v-on:click.prevent="addUser">Novo Usuário</button>
             </form>
         </div>
     </div>
@@ -388,7 +395,7 @@
     </div>
     <div class="mb4" style="text-align: center">
     <div style="text-align: center">
-                <button class="button is-info" v-on:click.prevent="enviar">Enviar convite</button>
+                <button class="btn btn-primary" v-on:click.prevent="enviar">Enviar convite</button>
             </div>
         </div>
     </div>

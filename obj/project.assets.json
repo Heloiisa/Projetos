@@ -12899,23 +12899,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thallis\\.nuget\\packages\\": {},
+    "C:\\Users\\hcord\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thallis\\Desktop\\CentralDuplicatas-master\\CentralDuplicatas.csproj",
+      "projectUniqueName": "D:\\CentralDuplicatas-master\\CentralDuplicatas.csproj",
       "projectName": "CentralDuplicatas",
-      "projectPath": "C:\\Users\\Thallis\\Desktop\\CentralDuplicatas-master\\CentralDuplicatas.csproj",
-      "packagesPath": "C:\\Users\\Thallis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thallis\\Desktop\\CentralDuplicatas-master\\obj\\",
+      "projectPath": "D:\\CentralDuplicatas-master\\CentralDuplicatas.csproj",
+      "packagesPath": "C:\\Users\\hcord\\.nuget\\packages\\",
+      "outputPath": "D:\\CentralDuplicatas-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thallis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\hcord\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
