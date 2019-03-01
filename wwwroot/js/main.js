@@ -11084,12 +11084,12 @@ Vue.component('infocadastro', {
     `
          <div class="column mt5 is-4 is-hidden-touch">
                <div>
-                  <div class="infoc blue">
-                     <div class="columns">
-                           <div class="column is-2-desktop dflex1">
+                  <div class="infoc" style="background-color:deepskyblue;font-size:1rem;color:#FFFFFF;width:550px">
+                     <div class="row">
+                        <div class="col-sm-2 dflex5">
                               <i class="fa fa-cube fa-2x"></i>
                            </div>
-                           <div class="column is-10-desktop">
+                           <div class="col-sm-10">
                               <span class="titlec">Tenha em mãos seu documento de identidade (RG ou CNH)</span>
                               <br>
                            </div>

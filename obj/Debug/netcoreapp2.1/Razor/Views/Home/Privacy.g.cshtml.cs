@@ -74,7 +74,7 @@ using CentralDuplicatas.Models;
                      ");
             EndContext();
             BeginContext(1559, 1571, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "621ebccb902642b29d52d15e212d3b28", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ac15b2a7c83643cdb8271a92a469ce6f", async() => {
                 BeginContext(1565, 764, true);
                 WriteLiteral(@"
 
@@ -96,7 +96,7 @@ using CentralDuplicatas.Models;
         ");
                 EndContext();
                 BeginContext(2329, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d0a9e2600114417b9b38e5bfaf61213", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54acc8b453b447658086fbe32e78ab01", async() => {
                     BeginContext(2337, 15, true);
                     WriteLiteral("Disabled select");
                     EndContext();

@@ -62,7 +62,7 @@ using CentralDuplicatas.Models;
             WriteLiteral("\r\n<script src=\"https://unpkg.com/vue\"></script>\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js\"></script>\r\n\r\n<section id=\"audiospot\">\r\n    <audioplayer>\r\n        ");
             EndContext();
             BeginContext(234, 80, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1968f46b814d4075967041bd981567a2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "05cd93e76a0e42e38b8621cb630d7720", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
